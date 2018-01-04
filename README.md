@@ -1,4 +1,4 @@
-#  !["formbot logo"]() formbot
+#  !["formbot logo"](https://github.com/privsecx/formbot-chrome-ext/blob/master/images/icon-128.png) formbot
 
 ## A Chrome extension
 
