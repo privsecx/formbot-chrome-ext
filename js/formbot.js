@@ -41,6 +41,7 @@ var Formbot = function () {
         _doEmail(el);
         _doNumber(el);
         _doPassword(el);
+        _doSelects(el);
     };
 
     var _randomInteger = function(min, max) {
@@ -140,6 +141,15 @@ var Formbot = function () {
         num = Math.floor(Math.random()*10);
         $(this).val(num);
       })
+    };
+
+    var _doSelects = function(el) {
+        const $selects = $(el).find("select");
+        $selects.each(function(index, select) {
+            $opts = $(select).find("option");
+            const randomIndex = _selectOne($opts);
+            $opts[randomIndex].selected = true;
+        });
     };
 
     var _doPassword = function(el) {

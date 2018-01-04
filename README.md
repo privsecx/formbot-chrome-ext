@@ -15,7 +15,7 @@ Right now it's not on the Chrome Web Store, however you can git clone or downloa
 a .zip file and unpack it.
 
 1. Download the repo and unzip it if necessary.
-1. Go to chrome://extensions/ in your browser.
+1. Go to [chrome://extensions/](chrome://extensions/) in your browser.
 1. Check `Developer mode.`
 1. Click `Load unpacked extension...`
 1. Use the file browser to navigate to the directory where the extension
